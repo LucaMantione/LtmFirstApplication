@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/big_text"
+        android:id="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:text="@string/subtitle"
+        android:layout_toStartOf="@+id/data"
+        android:textSize="@dimen/normal_text"
+        android:id="@+id/subtitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:text="@string/data"
+        android:textSize="@dimen/normal_text"
+        android:id="@+id/data"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem"
+        android:textSize="@dimen/small_text"
+        android:layout_below="@+id/subtitle"
+        android:id="@+id/lorem"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorPrimary"
+        android:text="@string/text_button"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/icons"
+        android:layout_below="@+id/lorem"
+        android:layout_alignEnd="@id/data"/>
+
+</RelativeLayout>

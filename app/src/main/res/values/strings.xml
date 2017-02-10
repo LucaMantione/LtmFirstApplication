@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrimaApplicazione</string>
+    <string name="title">Titolo</string>
+    <string name="subtitle">Sottotitolo</string>
+    <string name="data">09/02/16</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor nunc et libero laoreet, sed ullamcorper nibh dignissim. Ut blandit gravida lacus quis maximus. Vestibulum sed nibh maximus, posuere dolor in, semper nunc. Fusce dapibus velit porta sem vehicula placerat. Sed eu cursus nulla. Integer urna purus, egestas sit amet.</string>
+    <string name="text_button">Leggi</string>
+    <string name="text_username">Inserisci username</string>
+    <string name="text_password">Inserisci password</string>
+    <string name="text_login">Login</string>
+</resources>
